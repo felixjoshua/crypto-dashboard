@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans antialiased text-gray-800;
+  background: linear-gradient(-45deg, #e3f2fd, #fce4ec, #e8f5e9, #f3e5f5);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-glow {
+  @apply rounded-2xl bg-white shadow-xl transition-all hover:scale-105 hover:shadow-2xl;
+}
