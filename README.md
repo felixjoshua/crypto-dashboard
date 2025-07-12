@@ -26,6 +26,7 @@ Crypto Dashboard adalah aplikasi web yang menampilkan daftar 50 cryptocurrency t
 
 ### 📈 Halaman Detail Koin
 ![Detail View](./images/viewdetails.jpg)
+- Data yang di fetch hanya data realtime (bisa diubah untuk menampilkan history fluktuasi)
 
 ---
 
